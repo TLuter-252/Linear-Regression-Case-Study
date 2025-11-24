@@ -36,7 +36,7 @@
 
 # 2- Data Overview
 
-     The dataset includes loan recors with several important bowrrower and loan attributes:
+     The dataset includes loan records with several important bowrrower and loan attributes:
 
   - interest_rate:    is the target variable 
 
@@ -47,11 +47,36 @@
 
   - amount_funded_by_investors:    How much investors funded
 
-  - loan_length:    Term in months (36 aand 60)
+  - loan_length:    Term in months (36 and 60)
 
   We determined that most relevant variables for predicting interest rate are:
     
     - fico_score (strong fico-score correlation with interest_rates "the higher fico_score is the lower  
       interest_rate is)
-    - loan_length (60-month loans cost  more)
-    - amount_requested (larger loans often see higher laon fees)
+    - loan_length (60-month loans cost more)
+    - amount_requested (larger loans requested often see higher interest_rates)
+    - amount_funded (larger loans funded often see higher interest_rates)
+
+# 3- Exploratory Insights
+
+  Variables/Features Realtionship Highlights:
+
+- Higher FICO scores substantially lower interest rates, which is a clear negative correlation
+
+- 60-month loans have significantly higher interest rates. This means  that longer terms are considered to have  
+  more risks and therefore results in more interest.  
+
+- Amount requested and funded have extremely small positive correlation with higher interest_rates
+
+  Distribution Notes:  
+
+    - Interest rate is right-skewed
+    - Loan length only has two levels
+    - FICO is right-skewed
+  
+
+  Useful Visuals:
+
+    - Scatter plot: FICO Score vs interest_rate
+    - Scatter plot: amount_requested vs interest_rate
+    - Boxplot: interest_rate by loan_length
