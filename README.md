@@ -184,3 +184,23 @@ This gave us:
      - Residual Plots:
      - FICO Score had the strongest negative coefficient
      - Loan length (60-month) had mvery minimal positive effect on interest rate
+
+# 5- Key Results and Recommendations
+
+What drives interest rates the most?
+    
+# 1- Credit Score (FICO):
+    - This is the biggest driver of interest rate. Increase in FICO score sharply lowers intersst rate. Business owners can save thousands by improving credit before applyiong. 
+
+# 2- Loan Amount: 
+    - Larger requested amounts bring slighly higher interest rates. Business owners showld request a loan with of the amount they actually need.
+
+
+# Advise to New Business Oweners
+
+  - Improve your FICO score before applying for a loan.
+
+  - Choose the shortest loan term you can afford to secure a lower rate.
+
+  - Ask only for the loan amount you need to avoid unnecessary rate increases.
+  
